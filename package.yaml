@@ -1,0 +1,16 @@
+default-extensions:
+  - GADTs
+
+dependencies:
+  - base
+
+library:
+  source-dirs: lib
+  exposed-modules:
+    - ExposedModule
+  other-modules:
+    - OtherModule
+
+name: project
+
+version: 0.0.1
